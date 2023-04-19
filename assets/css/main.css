@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 }
 
+
 ol, ul {
 	list-style: none;
 }
@@ -49,6 +50,13 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.box.style2 {
+	height:500px;
+}
+
+.box.style3 {
+	height:500px;
 }
 
 body {
@@ -81,6 +89,7 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+	
 
 	body {
 		padding-top: 3.5em;
@@ -2373,6 +2382,7 @@ input, select, textarea {
 				}
 
 				.box.style2 {
+					height:400px;
 					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
